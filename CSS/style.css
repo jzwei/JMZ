@@ -84,12 +84,6 @@ ul {
 .panel-default>.panel-heading {
 	background-color: transparent;
 }
-.border { /*this isn't working*/
-	border: none;
-	border-top: none;
-	border-bottom: none;
-}
-
 
 .drop-size {
 	font-size: 1vw;
