@@ -84,10 +84,26 @@ ul {
 .panel-default>.panel-heading {
 	background-color: transparent;
 }
-
 .drop-size {
 	font-size: 1vw;
+	margin-bottom: 0;
 }
 .line-height {
 	line-height: 1vw;
 }
+
+.table th, .table td { 
+     border-top: none !important; 
+ }
+ .panel-body {
+ 	border-top: none !important;
+ }
+ .panel {
+ 	box-shadow: none;
+ }
+ .panel-body {
+ 	padding-top: 0;
+ 	padding-bottom: 0;
+ }
+
+
