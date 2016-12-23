@@ -40,10 +40,6 @@ body {
 	padding-top: 1vw;
 }
 
-/*.nav-top-margin {
-	margin-top: 20px;
-}*/
-
 ul {
 	list-style: none;
 }
@@ -57,9 +53,6 @@ ul {
 	color: white;
 	font-size: 1vw;
 	}
-/*.dropdown:hover .dropdown-menu {
-	display: block;
-	}*/
 
 /*LINK STUFF*/
 	a:link {
@@ -87,11 +80,18 @@ ul {
 .drop-size {
 	font-size: 1vw;
 	margin-bottom: 0;
+	font-style: italic;
 }
+.main-link {
+	font-size: 1vw;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
 .line-height {
 	line-height: 1vw;
 }
-
 .table th, .table td { 
      border-top: none !important; 
  }
@@ -105,5 +105,19 @@ ul {
  	padding-top: 0;
  	padding-bottom: 0;
  }
+
+
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content:"\2212";   /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: white;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\2b";    /* adjust as needed, taken from bootstrap.css */
+}
 
 
